@@ -1,0 +1,51 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #141c3a; */
+    background-image: linear-gradient(rgb(15, 1, 1), blue);
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    height: 100vh;
+    
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+    /* margin-top: 64px; */
+    padding: 300px 0 30px 0;
+}
+
+#message{
+    color: #fdfdfd;
+    font-size: 36px;
+    text-align: center;
+    padding: 30px;
+}
+
+#buttonContainer{
+    width: fit-content;
+    margin: auto;
+}
+
+#messageButton{
+    padding: 10px;
+    font-size: 16px;
+    background: white;
+    border: 5px solid #D0104C;
+    border-radius: 5px;
+    color: #141c3a;
+    
+    
+}
+
+#messageButton:hover{
+    cursor: pointer;
+
+}
